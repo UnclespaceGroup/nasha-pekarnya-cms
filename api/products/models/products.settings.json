@@ -29,7 +29,11 @@
       "type": "decimal"
     },
     "category": {
-      "model": "category"
+      "model": "category",
+      "via": "products"
+    },
+    "discountText": {
+      "type": "string"
     }
   }
 }

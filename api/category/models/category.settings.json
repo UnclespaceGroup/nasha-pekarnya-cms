@@ -21,6 +21,16 @@
       "via": "related",
       "plugin": "upload",
       "required": false
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "products": {
+      "via": "category",
+      "collection": "products"
     }
   }
 }

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "test",
+  "info": {
+    "name": "Тест"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "texts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "text.texts"
+    },
+    "block": {
+      "type": "component",
+      "repeatable": true,
+      "component": "block.block"
+    }
+  }
+}

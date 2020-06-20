@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_block_blocks",
+  "info": {
+    "name": "block",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_item_items",
+  "info": {
+    "name": "item",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

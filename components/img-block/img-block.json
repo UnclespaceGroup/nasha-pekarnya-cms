@@ -1,0 +1,23 @@
+{
+  "connection": "default",
+  "collectionName": "components_img_block_img_blocks",
+  "info": {
+    "name": "imgBlock",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

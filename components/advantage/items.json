@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "components_advantage_items",
+  "info": {
+    "name": "items",
+    "icon": "balance-scale"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

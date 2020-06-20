@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "actions",
+  "info": {
+    "name": "Акции"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "img": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "tags": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tag.tags"
+    },
+    "attention": {
+      "type": "component",
+      "repeatable": false,
+      "component": "tag.tags"
+    },
+    "dimanic": {
+      "type": "dynamiczone",
+      "components": [
+        "img-block.img-block",
+        "text-block.text-block"
+      ]
+    }
+  }
+}

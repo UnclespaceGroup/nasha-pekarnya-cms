@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "abouts",
+  "info": {
+    "name": "about"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "contents": {
+      "type": "dynamiczone",
+      "components": [
+        "img-block.img-block",
+        "text-block.text-block",
+        "block-banner.banner",
+        "block-advantages.advantages"
+      ]
+    }
+  }
+}

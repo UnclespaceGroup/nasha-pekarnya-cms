@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_text_block_text_blocks",
+  "info": {
+    "name": "textBlock",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

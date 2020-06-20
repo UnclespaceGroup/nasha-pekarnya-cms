@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_tag_tags",
+  "info": {
+    "name": "tags",
+    "icon": "bars"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

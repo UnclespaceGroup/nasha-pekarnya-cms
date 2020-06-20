@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "components_block_advantages_advantages",
+  "info": {
+    "name": "advantages",
+    "icon": "arrow-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "component",
+      "repeatable": true,
+      "component": "advantage.items"
+    }
+  }
+}

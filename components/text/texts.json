@@ -1,0 +1,14 @@
+{
+  "connection": "default",
+  "collectionName": "components_text_texts",
+  "info": {
+    "name": "texts",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "richtext"
+    }
+  }
+}

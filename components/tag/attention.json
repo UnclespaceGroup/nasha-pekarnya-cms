@@ -1,0 +1,10 @@
+{
+  "connection": "default",
+  "collectionName": "components_tag_attentions",
+  "info": {
+    "name": "attention",
+    "icon": "angle-double-down"
+  },
+  "options": {},
+  "attributes": {}
+}
