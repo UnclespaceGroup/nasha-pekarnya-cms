@@ -19,8 +19,8 @@
     "price": {
       "type": "integer"
     },
-    "img": {
-      "model": "file",
+    "images": {
+      "collection": "file",
       "via": "related",
       "plugin": "upload",
       "required": false
@@ -29,11 +29,20 @@
       "type": "decimal"
     },
     "category": {
-      "model": "category",
-      "via": "products"
+      "via": "products",
+      "model": "category"
     },
     "discountText": {
       "type": "string"
+    },
+    "cardImg": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": false
+    },
+    "summery": {
+      "type": "text"
     }
   }
 }
