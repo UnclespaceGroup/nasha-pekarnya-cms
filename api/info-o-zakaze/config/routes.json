@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/info-o-zakazes",
+      "handler": "info-o-zakaze.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/info-o-zakazes/count",
+      "handler": "info-o-zakaze.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/info-o-zakazes/:id",
+      "handler": "info-o-zakaze.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/info-o-zakazes",
+      "handler": "info-o-zakaze.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/info-o-zakazes/:id",
+      "handler": "info-o-zakaze.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/info-o-zakazes/:id",
+      "handler": "info-o-zakaze.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
