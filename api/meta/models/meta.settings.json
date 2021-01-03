@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "connection": "default",
+  "collectionName": "metas",
+  "info": {
+    "name": "Meta"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "mainPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.main-page"
+    },
+    "basket": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.main-page"
+    },
+    "news": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.main-page"
+    },
+    "form": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.main-page"
+    },
+    "about": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.main-page"
+    }
+  }
+}

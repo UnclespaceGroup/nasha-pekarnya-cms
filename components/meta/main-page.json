@@ -1,0 +1,17 @@
+{
+  "connection": "default",
+  "collectionName": "components_meta_main_pages",
+  "info": {
+    "name": "mainPage",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
