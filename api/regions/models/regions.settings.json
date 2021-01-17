@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "connection": "default",
+  "collectionName": "regions",
+  "info": {
+    "name": "Районы"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "deliveryPrice": {
+      "type": "integer"
+    },
+    "freeFrom": {
+      "type": "integer"
+    }
+  }
+}
